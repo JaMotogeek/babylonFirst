@@ -48,6 +48,18 @@ a:hover {
     background-color: #5EB69D; /* Darker greenish aquamarine on hover */
 }
 
+/* Title box */
+.title-box {
+    border: solid #FFA500; /* Orange border */
+    border-width: 10px;
+    border-radius: 15px;
+    background-color: #66CDAA; /* Greenish aquamarine fill */
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin: 20px;
+    color: black; /* Black text */
+}
 .container {
     /* display: block; */
     padding: 10px;
