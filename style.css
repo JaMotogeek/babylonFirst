@@ -11,20 +11,6 @@ body {
     margin: 10%;
 }
 
-h2 {
-    font-family: 'InkheartBrushDry', 'Courier New', Courier, monospace;
-    font-size: 80px;
-    text-align: center;
-    background-color: #66CDAA; /* Greenish aquamarine fill */
-    border: solid #FFA500; /* Orange border */
-    border-width: 5px;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 20px 0;
-    color: black; /* Black text */
-}
-
 nav {
     display: flex;
     justify-content: center;
@@ -47,6 +33,10 @@ a {
 a:hover {
     background-color: #5EB69D; /* Darker greenish aquamarine on hover */
 }
+@font-face {
+    font-family: 'InkheartBrushDry';
+    src: url('Fenotype - InkheartBrushDry.otf') format('opentype');
+}
 
 /* Title box */
 .title-box {
@@ -54,11 +44,13 @@ a:hover {
     border-width: 10px;
     border-radius: 15px;
     background-color: #66CDAA; /* Greenish aquamarine fill */
-    padding: 20px;
+    padding: 0.5% 2%; /* Reduced padding: 0.5% top/bottom, 2% left/right */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    margin: 20px;
+    margin: 1%;
     color: black; /* Black text */
+    font-family: 'InkheartBrushDry', 'Courier New', Courier, monospace;
+    font-size: 64px;
+    line-height: 0.5%; /* Adjusted line-height for closer vertical spacing */
 }
 .container {
     /* display: block; */
@@ -67,8 +59,8 @@ a:hover {
     align-items: center;
     background-color: #66CDAA; /* Greenish aquamarine fill */
     color: black; /* Black text */
-    border-radius: 8px;
-    border: 2px solid #FFA500; /* Orange border */
+    border-radius: 15px;
+    border: 10px solid #FFA500; /* Orange border */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
     max-width: 1920px;
     width: 90%;
