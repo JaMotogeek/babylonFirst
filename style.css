@@ -1,0 +1,75 @@
+body {
+    background-image: url("vangogh.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+h2 {
+    font-family: 'InkheartBrushDry', 'Courier New', Courier, monospace;
+    font-size: 80px;
+    text-align: center;
+    background-color: #66CDAA; /* Greenish aquamarine fill */
+    border: solid #FFA500; /* Orange border */
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    color: black; /* Black text */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #66CDAA; /* Greenish aquamarine fill */
+    color: black; /* Black text */
+    border-radius: 8px;
+    border: 2px solid #FFA500; /* Orange border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #5EB69D; /* Darker greenish aquamarine on hover */
+}
+
+.container {
+    /* display: block; */
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    background-color: #66CDAA; /* Greenish aquamarine fill */
+    color: black; /* Black text */
+    border-radius: 8px;
+    border: 2px solid #FFA500; /* Orange border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+    max-width: 1920px;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#renderCanvas {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+    background-color: #000000; /* Adjust canvas background if necessary */
+}
